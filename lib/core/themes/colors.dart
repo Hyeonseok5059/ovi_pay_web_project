@@ -1,6 +1,4 @@
-
 import 'package:flutter/material.dart';
-
 
 // 색상 변수 정의 (전역 `const` 변수 방식)
 const BLACK_COLOR = Color(0xFF000000); // Colors.black 색상
@@ -38,7 +36,11 @@ const SOFTGREEN60_COLOR = Color(0xFF6FAD96);
 const RED30_COLOR = Color(0xFFFF0000);
 const RED46_COLOR = Color(0xFFF44336); // Colors.red 색상
 const REDBROWN_COLOR = Color(0xFF905269);
-
+const YELLOW50_COLOR = Color(0xFFFFEB3B); // Colors.yellow 기본색상
+const YELLOW60_COLOR = Color(0xFFFFF176); // Colors.yellow.shade300 연한 노란색
+const YELLOW70_COLOR = Color(0xFFFFEE58); // 중간 농도의 노란색
+const YELLOW80_COLOR = Color(0xFFFFEB3B); // 조금 더 진한 노란색
+const YELLOW90_COLOR = Color(0xFFFDD835); // Colors.amber[600] 진한 노란색
 
 // primarySwatch를 위한 MaterialColor 변환 함수
 MaterialColor createMaterialColor(Color color) {
